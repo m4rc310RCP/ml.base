@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:basic_1="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ecqOII27EeqMgu1e992TkQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_f34O8I27EeqMgu1e992TkQ" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_kC9IQI27EeqMgu1e992TkQ" elementId="com.m4rc310.ml.registrations.command.add.clerk&#xA;clerk" commandName="Add Clerk&#xA;clerk"/>
+    <elements xsi:type="commands:Command" xmi:id="_JutTwJMeEeqfbrpZU4FPRA" elementId="com.m4rc310.ml.registrations.command.commandaddnewemployee" commandName="Add new Employee"/>
+    <elements xsi:type="commands:Command" xmi:id="_3B0gkJgwEeqdm6fQUO2wlA" elementId="com.m4rc310.ml.registrations.command.cancelarcadastropessoa" commandName="Cancelar Cadastro Pessoa"/>
+    <elements xsi:type="commands:Command" xmi:id="_X93p8KE8EeqevqGDKRcZ4Q" elementId="com.m4rc310.ml.registrations.command.commandpesquisa" commandName="Command Pesquisa"/>
+    <elements xsi:type="commands:Command" xmi:id="_mZZx4KQaEeqevqGDKRcZ4Q" elementId="com.m4rc310.ml.registrations.command.test.load.pj" commandName="Teste Load PJ" category="_xils0KQaEeqevqGDKRcZ4Q"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_xaGvkI27EeqMgu1e992TkQ" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_1E4YMI27EeqMgu1e992TkQ" elementId="com.m4rc310.ml.registrations.handler.0" contributionURI="bundleclass://com.m4rc310.ml.registrations/com.m4rc310.ml.handlers.AddClerkHandler" command="_kC9IQI27EeqMgu1e992TkQ"/>
+    <elements xsi:type="commands:Handler" xmi:id="_YI2pIJMeEeqfbrpZU4FPRA" elementId="com.m4rc310.ml.registrations.handler.1" contributionURI="bundleclass://com.m4rc310.ml.registrations/com.m4rc310.ml.registrations.handlers.AddEmployeeHandler" command="_JutTwJMeEeqfbrpZU4FPRA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_ngmY8JgxEeqdm6fQUO2wlA" elementId="com.m4rc310.ml.registrations.handler.2" contributionURI="bundleclass://com.m4rc310.ml.registrations/com.m4rc310.ml.handlers.CancelarCadastroPessoaHandler" command="_3B0gkJgwEeqdm6fQUO2wlA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_dl4bUKE8EeqevqGDKRcZ4Q" elementId="com.m4rc310.ml.registrations.handler.3" contributionURI="bundleclass://com.m4rc310.ml.registrations/com.m4rc310.ml.handlers.PesquisaHandler" command="_X93p8KE8EeqevqGDKRcZ4Q"/>
+    <elements xsi:type="commands:Handler" xmi:id="_8gdIkKQaEeqevqGDKRcZ4Q" elementId="com.m4rc310.ml.registrations.handler.4" contributionURI="bundleclass://com.m4rc310.ml.registrations/com.m4rc310.ml.handlers.tests.TestLoadPJhandler" command="_mZZx4KQaEeqevqGDKRcZ4Q"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Bc9vMI28EeqMgu1e992TkQ" featurename="children" parentElementId="com.m4rc310.ml.base2.trimbar.top">
+    <elements xsi:type="menu:ToolBar" xmi:id="_FKZqQI28EeqMgu1e992TkQ" elementId="com.m4rc310.ml.registrations.toolbar.0">
+      <children xsi:type="menu:HandledToolItem" xmi:id="_G6KXsI28EeqMgu1e992TkQ" elementId="com.m4rc310.ml.registrations.handledtoolitem.add.clerk" label="%text.add.clerk" iconURI="platform:/plugin/com.m4rc310.ml.registrations/icons/vcard_add.png" tooltip="%text.add.clerk.tip" command="_kC9IQI27EeqMgu1e992TkQ"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_WQhQYJIfEeqTmYIdRZwCqg" featurename="descriptors" parentElementId="xpath:/">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_q1kBwJIfEeqTmYIdRZwCqg" elementId="com.m4rc310.ml.registrations.partdescriptor.employee" label="%title.registration.peoples" iconURI="platform:/plugin/com.m4rc310.ml.registrations/icons/vcard_add.png" allowMultiple="true" closeable="true" contributionURI="bundleclass://com.m4rc310.ml.registrations/com.m4rc310.ml.parts.PartPeople">
+      <toolbar xmi:id="_yCAaUJIfEeqTmYIdRZwCqg" elementId="com.m4rc310.ml.registrations.toolbar.1">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_HXzt0JMeEeqfbrpZU4FPRA" elementId="com.m4rc310.ml.registrations.handledtoolitem.0" iconURI="platform:/plugin/com.m4rc310.ml.registrations/icons/window-new.png" command="_JutTwJMeEeqfbrpZU4FPRA"/>
+      </toolbar>
+    </elements>
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_J4oCQJvFEeqb3Nl8_hx7Sg" elementId="com.m4rc310.ml.registrations.partdescriptor.part.pessoa" label="%title.cadastro.pessoa" iconURI="platform:/plugin/com.m4rc310.ml.registrations/icons/vcard_add.png" allowMultiple="true" closeable="true" contributionURI="bundleclass://com.m4rc310.ml.registrations/com.m4rc310.ml.parts.PartCadastroPessoa">
+      <toolbar xmi:id="_UP4J8JvFEeqb3Nl8_hx7Sg" elementId="com.m4rc310.ml.registrations.toolbar.2">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_YMZncKE3EeqevqGDKRcZ4Q" elementId="com.m4rc310.ml.registrations.handledtoolitem.2" iconURI="platform:/plugin/com.m4rc310.ml.registrations/icons/magnifier.png" command="_X93p8KE8EeqevqGDKRcZ4Q"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_-RMb4JgxEeqdm6fQUO2wlA" elementId="com.m4rc310.ml.registrations.handledtoolitem.1" iconURI="platform:/plugin/com.m4rc310.ml.registrations/icons/cancel.png" command="_3B0gkJgwEeqdm6fQUO2wlA"/>
+      </toolbar>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_GndmgKOnEeqevqGDKRcZ4Q" featurename="children" parentElementId="com.m4rc310.ml.base2.partstack.sample">
+    <elements xsi:type="basic_1:Part" xmi:id="_JNB6kKOnEeqevqGDKRcZ4Q" elementId="com.m4rc310.ml.registrations.part.test" contributionURI="bundleclass://com.m4rc310.ml.registrations/com.m4rc310.ml.parts.PartTest" label="%title.part.test" iconURI="platform:/plugin/com.m4rc310.ml.registrations/icons/user.png" closeable="true">
+      <toolbar xmi:id="_6mogMKQaEeqevqGDKRcZ4Q" elementId="com.m4rc310.ml.registrations.toolbar.3">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9n_bkKQeEeqevqGDKRcZ4Q" elementId="com.m4rc310.ml.registrations.handledtoolitem.testsearchandloadingpj" label="Test search and loading PJ" command="_mZZx4KQaEeqevqGDKRcZ4Q"/>
+      </toolbar>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_r4DL4KQaEeqevqGDKRcZ4Q" featurename="categories" parentElementId="xpath:/">
+    <elements xsi:type="commands:Category" xmi:id="_xils0KQaEeqevqGDKRcZ4Q" elementId="com.m4rc310.ml.registrations.category.tests" name="Testes"/>
+  </fragments>
+</fragment:ModelFragments>

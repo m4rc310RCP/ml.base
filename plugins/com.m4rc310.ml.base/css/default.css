@@ -1,0 +1,105 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2015 Adobe Systems Incorporated
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe Systems Incorporated and its suppliers,
+* if any.  The intellectual and technical concepts contained
+* herein are proprietary to Adobe Systems Incorporated and its
+* suppliers and are protected by all applicable intellectual property
+* laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe Systems Incorporated.
+**************************************************************************/
+/* IF THIS IS A CSS FILE, DO NOT EDIT IT DIRECTLY. */
+/* USE THE CORRESPONDING .SCSS FILE IN THE SASS FOLDER INSTEAD. */
+#fsContainer .home_ur_container { width: inherit; height: 100%;  overflow-x:hidden; overflow-y:auto; background-color: #fff;}
+#fsContainer .home_ur_container .container { margin: 16px 13px 25px 13px; position: relative; z-index: 2; }
+.de_DE #fsContainer .home_ur_container .container, .cs_CZ #fsContainer .home_ur_container .container, .es_ES #fsContainer .home_ur_container .container { margin: 16px 10px 25px 10px; position: relative; z-index: 2; }
+.ru_RU #fsContainer .home_ur_container .container { margin: 16px 5px 25px 5px; position: relative; z-index: 2; }
+#fsContainer .home_ur_container .row { margin-bottom: 10px; }
+#fsContainer .home_ur_container .col { display: inline-block; vertical-align: middle; }
+#fsContainer .home_ur_container .single_container { width: 100%; border-collapse: collapse; padding: 0; margin: 15px 0 6px 0; }
+#fsContainer .home_ur_container .single_container.animate { -webkit-animation: fade_in linear 0.2s; }
+#fsContainer .home_ur_container .single_container .action { text-align: right; float: right; line-height: 44px; }
+#fsContainer .home_ur_container .action .negative { margin-right: 5px; }
+#fsContainer .home_ur_container .action .btn { margin-right: 0px; }
+#fsContainer .home_ur_container .action .negative:hover { text-decoration: none; }
+.de_DE #fsContainer .home_ur_container .action .negative { margin-right: 4px; }
+.ru_RU #fsContainer .home_ur_container .action .negative { margin-right: 4px; }
+#fsContainer .home_ur_container .avatar { width: 44px; position: relative; }
+#fsContainer .home_ur_container .folder { position: absolute; bottom: -1px; right: -3px; }
+#fsContainer .home_ur_container .avatar-image { width: 100%; vertical-align: top; cursor: pointer; }
+#fsContainer .home_ur_container .ur_detail { width: 170px; padding-left: 12px; }
+.cs_CZ #fsContainer .home_ur_container .ur_detail { width: 170px!important;}
+.de_DE #fsContainer .home_ur_container .ur_detail, .ru_RU #fsContainer .home_ur_container .ur_detail, .nl_NL #fsContainer .home_ur_container .ur_detail { width: 170px; padding-left: 6px; }
+/*#fsContainer .home_ur_container .msg { font-size: 14px; max-height: 32px; max-width: 180px; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; word-wrap: break-word; }*/
+#fsContainer .home_ur_container .msg { font-size: 14px; max-width: 180px; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; word-wrap: break-word; }
+/* #fsContainer .home_ur_container .msg.appName { font-size: 15px; margin-top: -2px; line-height: 1.3em; height:19px; white-space: nowrap; } */
+#fsContainer .home_ur_container .msg.appName { font-size: 15px; margin-top: -2px; line-height: 1.3em; }
+#fsContainer .home_ur_container .behance_invites .msg, #fsContainer .home_ur_container .ccm_invites .msg, #fsContainer .home_ur_container .designlibrary_invites .msg, #fsContainer .home_ur_container .anywhere_invites .msg { max-height: 56px; }
+#fsContainer .home_ur_container .behance_invites .truncated .msg, #fsContainer .home_ur_container .ccm_invites .truncated .msg , #fsContainer .home_ur_container .designlibrary_invites .truncated .msg, #fsContainer .home_ur_container .anywhere_invites .msg { -webkit-line-clamp: 3; /*height: 39px;*/ line-height: 19px; }
+/*#fsContainer .home_ur_container .truncated .appName { text-overflow: ellipsis; overflow: hidden; max-width: 180px; } */
+#fsContainer .home_ur_container .truncated .appName { max-width: 180px; }
+#fsContainer .home_ur_container .truncated .tooltip { top: 110%; }
+#fsContainer .home_ur_container .truncated .nub { left: 10px; }
+#fsContainer .home_ur_container .truncated .msg { -webkit-line-clamp: 3; }
+#fsContainer .home_ur_container .home_app_updates .msg { display: block; }
+#fsContainer .home_ur_container .home_new_app_updates .msg { display: block; }
+#fsContainer .home_ur_container .info { font-size: 12px; margin-top: 2px; }
+#fsContainer .home_ur_container .detailText { -webkit-transition: color 0.2s linear; transition: color 0.2s linear; text-decoration: underline; }
+#fsContainer .home_ur_container .detailText:hover { color: #484848; }
+#fsContainer .home_ur_container #header_ccm .fake_link, #fsContainer .home_ur_container #header_behance .fake_link, #fsContainer .home_ur_container #header_designlibrary .fake_link { display: none; }
+#fsContainer .home_ur_container #header_anywhere .fake_link { display: none; }
+#fsContainer .home_ur_container .action .default { display: block; padding-top: 5px; }
+#fsContainer .home_ur_container .action .accepting, #fsContainer .home_ur_container .action .complete, #fsContainer .home_ur_container .action .pending, #fsContainer .home_ur_container .action .error, #fsContainer .home_ur_container .action .progressing, #fsContainer .home_ur_container .action .expired { display: none; }
+#fsContainer .home_ur_container .action .expired, #fsContainer .home_ur_container .action .complete { color: #b5babe; }
+#fsContainer .home_ur_container .action .success { margin: 0 5px -1px 0; padding-right: 1px; padding-bottom: 1px}
+#fsContainer .home_ur_container .action .pending { font-style: italic; }
+#fsContainer .home_ur_container .action .progressing, #fsContainer .home_ur_container .action .error { font-size: 12px; font-style: italic; }
+#fsContainer .home_ur_container .action .progressing { color: #484848; }
+#fsContainer .home_ur_container .action .error { color: #D71111; }
+#fsContainer .home_ur_container .feed_empty { -webkit-transition: opacity 0.2s linear, visibility 0s linear; -webkit-transition-delay: 0s, 0.2s; transition: opacity 0.2s linear, visibility 0s linear 0.2s; opacity: 0; visibility: hidden; }
+#fsContainer .home_ur_container.empty .feed_empty { -webkit-transition: opacity 0.2s linear, visibility 0 linear; -webkit-transition-delay: 0s, 0; transition: opacity 0.2s linear, visibility 0 linear 0; opacity: 1; visibility: visible; }
+#fsContainer .home_ur_container .restartRequired { display: none; }
+
+/*Bug notes box*/
+#fsContainer .home_ur_container .bug_notes { background: #ebeff2; border: 1px solid #c7c8cc; font-size: 13px; position: relative; display: none; margin-top: 10px; word-wrap: break-word; }
+#fsContainer .home_ur_container .bug_notes .close { position: absolute; right: 10px; top: 10px; cursor: pointer; }
+#fsContainer .home_ur_container .bug_notes .notes { margin: 0; padding: 0 0 0 20px; width: 85%; }
+#fsContainer .home_ur_container .bug_notes .notes li { margin-bottom: 8px; }
+#fsContainer .home_ur_container .bug_notes .notes li:last-child { margin-bottom: 0; }
+
+#fsContainer .home_ur_container .bug_notes_inner { padding: 15px; }
+
+#fsContainer .home_ur_container .progressing { position: relative; padding-right: 15px; }
+#fsContainer .home_ur_container .progressing .btnCancel { position: absolute; right: 0; top: 16px; }
+#fsContainer .home_ur_container .progressing .percent { margin-right: 6px; }
+
+#fsContainer .home_ur_container .progress-meter-container { width: 76px; height: 6px; display: inline-block; background: #c3c9ce; border-radius: 3px; }
+
+#fsContainer .home_ur_container .progress-meter { -webkit-transition: width 0.1s linear; transition: width 0.1s linear; background-color: #6a737a; width: 1%; height: 6px; border-radius: 3px; }
+
+#fsContainer .home_ur_container .close, #fsContainer .home_ur_container .btnCancel { -webkit-transition: opacity 0.2s linear; transition: opacity 0.2s linear; opacity: .6; }
+#fsContainer .home_ur_container .close:hover, #fsContainer .home_ur_container .btnCancel:hover { opacity: 1; }
+
+#fsContainer .home_ur_container .updates_section { -webkit-transition: opacity 0.2s linear; transition: opacity 0.2s linear; opacity: 1; }
+#fsContainer .home_ur_container .updates_section.hide { -webkit-transition: none; transition: none; opacity: 0; }
+
+/* Spinner*/
+#fsContainer .home_ur_container .sprite-spinner-small-white { margin-top: 5px; margin-right: 5px; }
+
+#fsContainer .home_ur_container .anywhere_icon { position: absolute; bottom: 0px; right: 0px; height: 19px; width: 20px;
+ display: inline-block; background: url("../img/1x/serviceIcons_CreativeCloud.png"); }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) 
+{
+	 {background: url("../img/2x/serviceIcons_2x_CreativeCloud.png"); background-size: 21px 19px;}
+}
+
+@-webkit-keyframes spin { 0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); } }

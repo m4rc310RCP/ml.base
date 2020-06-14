@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="libs/websocket/fastjson-1.2.33.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/websocket/okhttp-3.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/websocket/okio-1.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/json-20190722.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/spring-beans-4.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-annotations-2.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-core-2.9.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-databind-2.9.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/spring-web-4.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/spring-core-4.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/json_simple-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/graphql/antlr4-runtime-4.7.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/graphql/awaitility-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/graphql/commons-codec-1.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/graphql/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/graphql/graphql-java-2019-10-08T22-47-44-e938ab4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/graphql/hamcrest-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/graphql/httpclient-4.5.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/graphql/httpcore-4.4.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/graphql/java-dataloader-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/graphql/reactive-streams-1.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/graphql/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

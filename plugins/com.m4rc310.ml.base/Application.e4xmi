@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_c3AF0MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.application" bindingContexts="_c3AF2cjYEeSyMNYR5xypkQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="%app_title" iconURI="" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_LQGZIJqIEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.perspectivestack.0" selectedElement="_VFV_8JqIEembXMiJbL52sw">
+      <children xsi:type="advanced:Perspective" xmi:id="_VFV_8JqIEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.perspective.label_perspective_adra" label="%label_perspective_adra" tooltip="%label_perspective_adra_tooltip">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_9KJDsJqKEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_FfrLQJqLEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.partsashcontainer.1" containerData="2800">
+            <children xsi:type="basic:PartStack" xmi:id="_ahszkJqLEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.partstack.0"/>
+            <children xsi:type="basic:PartStack" xmi:id="_c5LgIJ-gEemlyvpAGyJNmQ" elementId="com.m4rc310.rcp.mrcp.partstack.connection.info" visible="false" containerData="2300"/>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_Gp6JwJqLEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.partsashcontainer.2" containerData="7200">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_mhIHEJqYEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.partsashcontainer.3" horizontal="true">
+              <children xsi:type="advanced:Placeholder" xmi:id="_jsdnEJqYEembXMiJbL52sw" elementId="org.eclipse.ui.editorss" ref="_7jGFAJqYEembXMiJbL52sw"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_PyDYgJljEeme4-7Cto2pKQ" elementId="org.eclipse.ui.main.menu"/>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_7jGFAJqYEembXMiJbL52sw" elementId="org.eclipse.ui.editorss" label="Editor" tooltip="Editor">
+      <children xsi:type="basic:PartStack" xmi:id="_Ct1NYJqZEembXMiJbL52sw" elementId="org.eclipse.e4.primaryDataStack">
+        <tags>EditorStack</tags>
+        <tags>org.eclipse.e4.primaryDataStack</tags>
+        <tags>noFocus</tags>
+      </children>
+    </sharedElements>
+    <trimBars xmi:id="_f9o2UJljEeme4-7Cto2pKQ" elementId="com.m4rc310.rcp.mrcp.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_hAFKwJljEeme4-7Cto2pKQ" elementId="org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_o7lO8IxZEeqMgu1e992TkQ" elementId="com.m4rc310.ml.base.handledtoolitem.textnewsale" label="%text.new.sale" iconURI="platform:/plugin/com.m4rc310.ml.base/icons/tab_new_raised.png" command="_e2cgEIxbEeqMgu1e992TkQ"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_qg1f4JqCEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.toolbar.reserved"/>
+      <children xsi:type="menu:ToolBar" xmi:id="_z3jswJqEEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.toolbar.right"/>
+    </trimBars>
+    <trimBars xmi:id="_fAutMJqXEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.trimbar.left" side="Left">
+      <children xsi:type="menu:ToolBar" xmi:id="_WorVwJqaEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.toolbar.left"/>
+    </trimBars>
+    <trimBars xmi:id="_LZoqcJqaEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.trimbar.statusbar" side="Bottom">
+      <children xsi:type="menu:ToolBar" xmi:id="_n6ABEIykEeqMgu1e992TkQ" elementId="com.m4rc310.ml.base.toolbar.1">
+        <children xsi:type="menu:ToolControl" xmi:id="_SqpRYJqDEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.toolcontrol.stretch" contributionURI="bundleclass://com.m4rc310.ml.base/com.m4rc310.ml.base.toolcontrols.ToolcontrolStatus">
+          <tags>stretch</tags>
+        </children>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_p3RmEIykEeqMgu1e992TkQ" elementId="com.m4rc310.ml.base.toolbar.2">
+        <children xsi:type="menu:ToolControl" xmi:id="_5X1f0JrDEembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.toolcontrol.0" contributionURI="bundleclass://com.m4rc310.ml.base/com.m4rc310.ml.base.toolcontrols.ToolcontrolStatus"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_o6QuYIxbEeqMgu1e992TkQ" elementId="com.m4rc310.ml.base.handler.0" contributionURI="bundleclass://com.m4rc310.ml.base/com.m4rc310.ml.base.handlers.NewSaleHandler" command="_e2cgEIxbEeqMgu1e992TkQ"/>
+  <bindingTables xmi:id="_tvK6kJp2EembXMiJbL52sw" elementId="" bindingContext="_c3AF2cjYEeSyMNYR5xypkQ"/>
+  <rootContext xmi:id="_c3AF2cjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_c3AF2sjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_c3AF28jYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <rootContext xmi:id="_Fl6kwJ5-EemlyvpAGyJNmQ" elementId="org.eclipse.ui.contexts.workbenchMenu" name="Workbench Menu" description="When no Workbench windows are active"/>
+  <descriptors xmi:id="_ng72QIyjEeqMgu1e992TkQ" elementId="com.m4rc310.ml.base.partdescriptor.partsale" iconURI="platform:/plugin/com.m4rc310.ml.base/icons/stock_id.png" allowMultiple="true" contributionURI="bundleclass://com.m4rc310.ml.base/com.m4rc310.ml.base.parts.PartSale">
+    <toolbar xmi:id="_soZfUIyjEeqMgu1e992TkQ" elementId="com.m4rc310.ml.base.toolbar.0"/>
+    <variables>partStack:org.eclipse.e4.primaryDataStack</variables>
+  </descriptors>
+  <commands xmi:id="_e2cgEIxbEeqMgu1e992TkQ" elementId="com.m4rc310.ml.base.command.commandnewsale" commandName="CommandNewSale" description="Add new sale" category="_0YN0UJo4EembXMiJbL52sw"/>
+  <addons xmi:id="_c3AF0sjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_c3AF08jYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_c3AF1MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_c3AF1cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_c3AF1sjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_c3AF18jYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_c3AF2MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_Sv0XwIyjEeqMgu1e992TkQ" elementId="com.m4rc310.ml.base.addon.init" contributionURI="bundleclass://com.m4rc310.ml.base/com.m4rc310.ml.base.addons.AddonAppStart"/>
+  <categories xmi:id="_0YN0UJo4EembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.category.edit" name="Edit"/>
+  <categories xmi:id="_wWxa4Jq2EembXMiJbL52sw" elementId="com.m4rc310.rcp.mrcp.category.test" name="Test"/>
+</application:Application>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_tJBXAHFCEeq3Lb0YTkGJrw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_wjcPcHFCEeq3Lb0YTkGJrw" featurename="children" parentElementId="com.m4rc310.ml.base2.trimbar.status">
+    <elements xsi:type="menu:ToolBar" xmi:id="_VgMPEHFDEeq3Lb0YTkGJrw" elementId="com.m4rc310.ml.statusbar.toolbar.0">
+      <children xsi:type="menu:ToolControl" xmi:id="_f77OIHFDEeq3Lb0YTkGJrw" elementId="com.m4rc310.ml.statusbar.toolcontrol.status.left" contributionURI="bundleclass://com.m4rc310.ml.statusbar/com.m4rc310.ml.statusbar.toolcontrols.ToolcontrolStatusLeft"/>
+    </elements>
+    <elements xsi:type="menu:ToolControl" xmi:id="_gAo8sIznEeqMgu1e992TkQ" elementId="com.m4rc310.ml.statusbar.toolcontrol.sp" contributionURI="bundleclass://com.m4rc310.ml.statusbar/com.m4rc310.ml.statusbar.toolcontrols.ToolcontrolStretchedSpace">
+      <tags>stretch</tags>
+    </elements>
+    <elements xsi:type="menu:ToolBar" xmi:id="_y3WtkIzzEeqMgu1e992TkQ" elementId="com.m4rc310.ml.statusbar.toolbar.watch">
+      <children xsi:type="menu:ToolControl" xmi:id="_2UuzYIzzEeqMgu1e992TkQ" elementId="com.m4rc310.ml.statusbar.toolcontrol.0" contributionURI="bundleclass://com.m4rc310.ml.statusbar/com.m4rc310.ml.statusbar.toolcontrols.ToolcontrolWatch"/>
+    </elements>
+    <elements xsi:type="menu:ToolBar" xmi:id="_By1PYIzpEeqMgu1e992TkQ" elementId="com.m4rc310.ml.statusbar.toolbar.1">
+      <children xsi:type="menu:ToolControl" xmi:id="_5AGq8IznEeqMgu1e992TkQ" elementId="com.m4rc310.ml.statusbar.toolcontrol.version" contributionURI="bundleclass://com.m4rc310.ml.statusbar/com.m4rc310.ml.statusbar.toolcontrols.ToolcontrolVersion"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_7mwSQHFKEeq3Lb0YTkGJrw" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_-MOfsHFKEeq3Lb0YTkGJrw" elementId="com.m4rc310.ml.statusbar.command.show.popup" commandName="PopupCommand"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_BHf-AHFLEeq3Lb0YTkGJrw" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_DPmS8HFLEeq3Lb0YTkGJrw" elementId="com.m4rc310.ml.statusbar.handler.0" contributionURI="bundleclass://com.m4rc310.ml.statusbar/com.m4rc310.ml.statusbar.toolcontrols.ShowPopupHandler" command="_-MOfsHFKEeq3Lb0YTkGJrw"/>
+  </fragments>
+</fragment:ModelFragments>

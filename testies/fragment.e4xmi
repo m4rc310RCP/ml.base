@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:basic_1="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_IZ-QgDNaEeqPO4-krvXcqA">
+  <imports xsi:type="commands:BindingContext" xmi:id="_7zUawDh3EeqUsPI36TSG4w" elementId="org.eclipse.ui.contexts.dialogAndWindow"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_KRKboDNaEeqPO4-krvXcqA" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_Nh-FEDNaEeqPO4-krvXcqA" elementId="com.m4rc310.rcp.mercado.livre.ml.command.testreport" commandName="TestReport"/>
+    <elements xsi:type="commands:Command" xmi:id="_VOEnIEApEeqWxbaZthtSDA" elementId="com.m4rc310.rcp.mercado.livre.ml.command.dynamic.report.test" commandName="DynamicReportTest"/>
+    <elements xsi:type="commands:Command" xmi:id="_dW_KYEMbEeqkl6qmvBTT6g" elementId="com.m4rc310.rcp.mercado.livre.ml.command.update.unidade" commandName="UpdateUnidade"/>
+    <elements xsi:type="commands:Command" xmi:id="_7L1tMERuEeqPD-bv5rBg2A" elementId="com.m4rc310.rcp.mercado.livre.ml.command.refresh" commandName="CommandRefresh"/>
+    <elements xsi:type="commands:Command" xmi:id="_FNoJYEjcEeqEnIdkHE-c_Q" elementId="com.m4rc310.rcp.mercado.livre.ml.command.dynamic.crud" commandName="CommandDynamicCrud"/>
+    <elements xsi:type="commands:Command" xmi:id="_ns5ecExUEeqLm4PrVbQq2g" elementId="com.m4rc310.rcp.mercado.livre.ml.command.commandaddgrupolocal" commandName="CommandAddGrupoLocal"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_P-gY8DNaEeqPO4-krvXcqA" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_bYSUoDNaEeqPO4-krvXcqA" elementId="com.m4rc310.rcp.mercado.livre.ml.handler.0" contributionURI="bundleclass://com.m4rc310.rcp.mercado.livre.ml/com.m4rc310.rcp.mercado.livre.ml.handlers.MapaReportHandler" command="_Nh-FEDNaEeqPO4-krvXcqA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_8GWasEMbEeqkl6qmvBTT6g" elementId="com.m4rc310.rcp.mercado.livre.ml.handler.1" contributionURI="bundleclass://com.m4rc310.rcp.mercado.livre.ml/com.m4rc310.rcp.mercado.livre.ml.handlers.UpdateUnidadeHandler" command="_dW_KYEMbEeqkl6qmvBTT6g"/>
+    <elements xsi:type="commands:Handler" xmi:id="_Bzhy4ERvEeqPD-bv5rBg2A" elementId="com.m4rc310.rcp.mercado.livre.ml.handler.2" contributionURI="bundleclass://com.m4rc310.rcp.mercado.livre.ml/com.m4rc310.rcp.mercado.livre.ml.handlers.RefreshHandler" command="_7L1tMERuEeqPD-bv5rBg2A"/>
+    <elements xsi:type="commands:Handler" xmi:id="_-gAlYEjcEeqEnIdkHE-c_Q" elementId="com.m4rc310.rcp.mercado.livre.ml.handler.3" contributionURI="bundleclass://com.m4rc310.rcp.mercado.livre.ml/com.m4rc310.rcp.mercado.livre.ml.handlers.DynamicAddRiscoHandler" command="_FNoJYEjcEeqEnIdkHE-c_Q"/>
+    <elements xsi:type="commands:Handler" xmi:id="_3GTXYEwSEeqLm4PrVbQq2g" elementId="com.m4rc310.rcp.mercado.livre.ml.handler.4" contributionURI="bundleclass://com.m4rc310.rcp.mercado.livre.ml/com.m4rc310.rcp.mercado.livre.ml.handlers.AddGrupoLocalHandler" command="_ns5ecExUEeqLm4PrVbQq2g"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_kel8YDNbEeqPO4-krvXcqA" featurename="children" parentElementId="reports">
+    <elements xsi:type="menu:MenuSeparator" xmi:id="_hfIwIEApEeqWxbaZthtSDA" elementId="com.m4rc310.rcp.mercado.livre.ml.menuseparator.0"/>
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_jTmXYEApEeqWxbaZthtSDA" elementId="com.m4rc310.rcp.mercado.livre.ml.handledmenuitem.dynamicreporttest" toBeRendered="false" label="Dynamic Report Test" command="_VOEnIEApEeqWxbaZthtSDA"/>
+    <elements xsi:type="menu:Menu" xmi:id="_iRam0EKIEeqkl6qmvBTT6g" elementId="com.m4rc310.rcp.mercado.livre.ml.menu.mapa" label="%menu.reports.mapa.risco">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_t4HQgDNbEeqPO4-krvXcqA" elementId="com.m4rc310.rcp.mercado.livre.ml.handledmenuitem.testereport" label="%menu.reports.mapa.risco.print" command="_Nh-FEDNaEeqPO4-krvXcqA"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_eFbzIDQlEeqXfan4Gwl99Q" featurename="descriptors" parentElementId="xpath:/">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_iRN3EDQlEeqXfan4Gwl99Q" elementId="com.m4rc310.rcp.mercado.livre.ml.partdescriptor.report" label="" iconURI="platform:/plugin/com.m4rc310.rcp.mercado.livre.ml/img/cmy.png" closeable="true" contributionURI="bundleclass://com.m4rc310.rcp.mercado.livre.ml/com.m4rc310.rcp.mercado.livre.ml.parts.PartMapa">
+      <variables>partStack:com.m4rc310.rcp.mercado.livre.principal.partstack.sample</variables>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_stJF0Dh3EeqUsPI36TSG4w" featurename="bindingTables" parentElementId="xpath:/">
+    <elements xsi:type="commands:BindingTable" xmi:id="_KbWbIDh4EeqUsPI36TSG4w" elementId="com.m4rc310.rcp.mercado.livre.ml.bindingtable.mapa" bindingContext="_7zUawDh3EeqUsPI36TSG4w">
+      <bindings xmi:id="_MpTgcDh4EeqUsPI36TSG4w" elementId="com.m4rc310.rcp.mercado.livre.ml.keybinding.0" keySequence="F3" command="_Nh-FEDNaEeqPO4-krvXcqA"/>
+      <bindings xmi:id="_OMTNwERsEeqPD-bv5rBg2A" elementId="com.m4rc310.rcp.mercado.livre.ml.keybinding.updade" keySequence="F5" command="_7L1tMERuEeqPD-bv5rBg2A"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_uoNS4EIQEeqkl6qmvBTT6g" featurename="children" parentElementId="com.m4rc310.rcp.mercado.livre.principal.partstack.left">
+    <elements xsi:type="basic_1:Part" xmi:id="_JYLGgEHyEeqkl6qmvBTT6g" elementId="com.m4rc310.rcp.mercado.livre.ml.part.unidades" contributionURI="bundleclass://com.m4rc310.rcp.mercado.livre.ml/com.m4rc310.rcp.mercado.livre.ml.parts.UnidadesPart" label="Unidades" iconURI="platform:/plugin/com.m4rc310.rcp.mercado.livre.icons/icons/16x16/others/sitemap_color.png">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_qdi9UEfDEeqEnIdkHE-c_Q" elementId="com.m4rc310.rcp.mercado.livre.ml.popupmenu.unidade.itens" label="Itens">
+        <children xsi:type="menu:DynamicMenuContribution" xmi:id="_AaTLsEfIEeqEnIdkHE-c_Q" elementId="com.m4rc310.rcp.mercado.livre.ml.dynamicmenucontribution.0" label="Adicionar Risco" contributionURI="bundleclass://com.m4rc310.rcp.mercado.livre.ml/com.m4rc310.rcp.mercado.livre.ml.dynamics.DynamicMenuControl"/>
+      </menus>
+      <toolbar xmi:id="_b64zwEHyEeqkl6qmvBTT6g" elementId="com.m4rc310.rcp.mercado.livre.ml.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_FrFgUEMcEeqkl6qmvBTT6g" elementId="com.m4rc310.rcp.mercado.livre.ml.handledtoolitem.textupdate" label="%text.update" iconURI="platform:/plugin/com.m4rc310.rcp.mercado.livre.ml/img/nav_refresh.png" command="_dW_KYEMbEeqkl6qmvBTT6g"/>
+      </toolbar>
+    </elements>
+    <elements xsi:type="basic_1:Part" xmi:id="_3SnK0EXMEeqEnIdkHE-c_Q" elementId="com.m4rc310.rcp.mercado.livre.ml.part.chart.umidade.densidade" contributionURI="bundleclass://com.m4rc310.rcp.mercado.livre.ml/com.m4rc310.rcp.mercado.livre.ml.parts.PartChartUmidadeDensidade" label="Part Umidade x Densidade"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Upf-EEIkEeqkl6qmvBTT6g" featurename="addons" parentElementId="xpath:/">
+    <elements xsi:type="application:Addon" xmi:id="_XVj7sEIkEeqkl6qmvBTT6g" elementId="com.m4rc310.rcp.mercado.livre.ml.addon.init" contributionURI="bundleclass://com.m4rc310.rcp.mercado.livre.ml/com.m4rc310.rcp.mercado.livre.ml.addons.InitAddon"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_stz9YERuEeqPD-bv5rBg2A" featurename="children" parentElementId="file">
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_vgYLoERuEeqPD-bv5rBg2A" elementId="com.m4rc310.rcp.mercado.livre.ml.handledmenuitem.update" label="%menu.file.refresh" iconURI="platform:/plugin/com.m4rc310.rcp.mercado.livre.ml/img/nav_refresh.png" command="_7L1tMERuEeqPD-bv5rBg2A"/>
+    <elements xsi:type="menu:Menu" xmi:id="_a83W8ExTEeqLm4PrVbQq2g" elementId="com.m4rc310.rcp.mercado.livre.ml.menu.new" label="%menu.file.new">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_sCQKkExTEeqLm4PrVbQq2g" elementId="com.m4rc310.rcp.mercado.livre.ml.handledmenuitem.new.grupo.local" label="%menu.new.grupo.local" command="_ns5ecExUEeqLm4PrVbQq2g"/>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

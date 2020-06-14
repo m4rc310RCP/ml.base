@@ -1,0 +1,50 @@
+.MTrimmedWindow {
+    background-color: #E8E8E8;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.MWindow{
+ 	margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.MPartStack {
+  swt-unselected-tabs-color: #FFFFFF #FFFFFF #FFFFFF 100% 100%;
+  swt-outer-keyline-color: #FFFFFF;
+  swt-swt-inner-keyline-color: #FFFFFF;
+  font-size: 10;
+}
+
+
+
+#MyLabelVersion{
+	color:#3C9AFD;
+	font-size: 10;
+	font-style: italic;
+}
+
+#MyLabelUserInfo{
+	font-weight: bold;
+	color:#7F7F7F;
+	font-size: 10;
+}
+
+.MTest{background-color: #E8F2FE;}
+
+.MLabelError{font-size:10; color:#E24133}
+
+.MLogo{font-size: 10; color:#3C9AFD;}
+
+.MSearchComponent{
+	background-color: #E8F2FE;
+}
+
+.MyLabelUserFullName{
+	font-size: 12;
+	font-weight: bold;
+}

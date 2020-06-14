@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/bcprov-jdk15on-1.62.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/castor-core-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/castor-xml-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/commons-beanutils-1.9.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/commons-collections-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/commons-collections4-4.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/commons-digester-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/commons-lang3-3.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/ecj-4.4.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/itext-2.1.7.js7.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/jackson-annotations-2.10.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/jackson-core-2.10.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/jackson-databind-2.10.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/jasperreports-6.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/javax.inject-1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/jcommon-1.0.23.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/JasperReport/jfreechart-1.0.19.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jasperreports-html-component-6.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/swt-jasper-viewer-6.4.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

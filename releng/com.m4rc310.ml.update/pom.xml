@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<project>
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>com.m4rc310.ml.update</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>eclipse-repository</packaging>
+
+	<parent>
+		<groupId>com.m4rc310.ml</groupId>
+		<artifactId>releng</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<build>
+		<extensions>
+			<!-- Enabling the use of FTP -->
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ftp</artifactId>
+				<version>1.0-beta-6</version>
+			</extension>
+		</extensions>
+	</build>
+
+
+	<profiles>
+
+		<!-- This profile is used to upload the repo -->
+		<profile>
+			<id>uploadRepo</id>
+			<properties>
+				<!-- Properties relative to the distant host where to upload the repo -->
+				<ftp.url>ftp://files.000webhost.com</ftp.url>
+				<ftp.toDir>public_html/updates</ftp.toDir>
+				<!-- Relative path to the repo being uploaded -->
+				<repo.path>${project.build.directory}/repository/</repo.path>
+			</properties>
+
+			<build>
+				<plugins>
+
+					<plugin>
+						<artifactId>maven-clean-plugin</artifactId>
+						<version>3.1.0</version>
+						<configuration>
+							<skip>true</skip>
+						</configuration>
+					</plugin>
+
+					<!-- <plugin> -->
+					<!-- <artifactId>maven-clean-plugin</artifactId> -->
+					<!-- <version>3.1.0</version> -->
+
+					<!-- <configuration> -->
+					<!-- <filesets> -->
+					<!-- <fileset> -->
+					<!-- <directory>${ftp.toDir}</directory> -->
+					<!-- <includes> -->
+					<!-- <include>**/*.jar</include> -->
+					<!-- <include>**/*.log</include> -->
+					<!-- </includes> -->
+					<!-- <excludes> -->
+					<!-- <exclude>**/important.log</exclude> -->
+					<!-- <exclude>**/another-important.log</exclude> -->
+					<!-- </excludes> -->
+					<!-- <followSymlinks>false</followSymlinks> -->
+					<!-- </fileset> -->
+					<!-- </filesets> -->
+					<!-- </configuration> -->
+
+					<!-- </plugin> -->
+
+					<!-- Upload the repo to the server -->
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>wagon-maven-plugin</artifactId>
+						<version>1.0-beta-4</version>
+						<executions>
+							<execution>
+								<id>upload-repo</id>
+								<phase>install</phase>
+								<goals>
+									<goal>upload</goal>
+								</goals>
+								<configuration>
+									<fromDir>${repo.path}</fromDir>
+									<!-- <excludes>**</excludes> -->
+									<includes>**</includes>
+									<toDir>${ftp.toDir}</toDir>
+									<url>${ftp.url}</url>
+									<serverId>p2Repo</serverId>
+
+									<followSymlinks>false</followSymlinks>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+
+</project>

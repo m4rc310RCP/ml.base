@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Utils
+Bundle-SymbolicName: com.m4rc310.ml.utils;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: M4RC310
+Automatic-Module-Name: com.m4rc310.ml.utils
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: com.m4rc310.ml.api
+Export-Package: com.m4rc310.ml.utils

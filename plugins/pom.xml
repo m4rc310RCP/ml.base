@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.m4rc310.ml</groupId>
+	<artifactId>com.m4rc310.ml.plugins</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.m4rc310.ml</groupId>
+		<artifactId>root</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<modules>
+		<module>com.m4rc310.ml.base2</module>
+		<module>com.m4rc310.ml.registrations</module>
+		<module>com.m4rc310.ml.reports</module>
+		<module>com.m4rc310.ml.statusbar</module>
+		<module>com.m4rc310.ml.ui</module>
+		<module>com.m4rc310.rcp.graphql</module>
+		<module>com.m4rc310.rcp.popup</module>
+	</modules>
+</project>
