@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.m4rc310.ml.base2' version='1.0.0.202006142357' generation='2'>
+    <update id='com.m4rc310.ml.base2' range='[0.0.0,1.0.0.202006142357)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Base2'/>
+      <property name='org.eclipse.equinox.p2.provider' value='M4RC310'/>
+      <property name='maven-groupId' value='com.m4rc310.ml'/>
+      <property name='maven-artifactId' value='com.m4rc310.ml.base2'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.ml.base2' version='1.0.0.202006142357'/>
+      <provided namespace='osgi.bundle' name='com.m4rc310.ml.base2' version='1.0.0.202006142357'/>
+      <provided namespace='osgi.identity' name='com.m4rc310.ml.base2' version='1.0.0.202006142357'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='18'>
+      <required namespace='osgi.bundle' name='javax.inject' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.swt' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.ui.model.workbench' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jface' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.ui.services' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.ui.workbench' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.core.di' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.ui.di' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.core.contexts' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.core.services' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.core.di.extensions' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.osgi.services' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.m4rc310.ml.ui' range='0.0.0'/>
+      <required namespace='java.package' name='com.m4rc310.ml.statusbar.actions' range='0.0.0'/>
+      <required namespace='java.package' name='javax.annotation' range='1.2.0'/>
+      <required namespace='java.package' name='javax.inject' range='1.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.m4rc310.ml.base2' version='1.0.0.202006142357'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.m4rc310.ml.base2;singleton:=true&#xA;Bundle-Version: 1.0.0.202006142357&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

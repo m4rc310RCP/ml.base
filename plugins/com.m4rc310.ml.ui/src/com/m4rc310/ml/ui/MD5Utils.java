@@ -8,7 +8,6 @@ import java.io.ByteArrayOutputStream;
  */
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
@@ -17,8 +16,6 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import javax.xml.bind.DatatypeConverter;
 
 /**
  *
@@ -37,7 +34,7 @@ public class MD5Utils {
 			byte[] thedigest = md.digest(baos.toByteArray());
 			oos.close();
 			baos.close();
-			return DatatypeConverter.printHexBinary(thedigest);
+			return new String(thedigest);
 		} catch (Exception e) {
 			throw new UnsupportedOperationException(e);
 		}

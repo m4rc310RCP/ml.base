@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.m4rc310.ml.feature"
+      label="Feature"
+      version="1.0.0"
+      provider-name="M4RC310">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="com.m4rc310.rcp.graphql"
+         download-size="7765"
+         install-size="8566"
+         version="1.0.49"
+         unpack="false"/>
+
+   <plugin
+         id="com.m4rc310.rcp.popup"
+         download-size="28"
+         install-size="50"
+         version="1.0.49"
+         unpack="false"/>
+
+   <plugin
+         id="com.m4rc310.ml.base2"
+         download-size="15"
+         install-size="24"
+         version="1.0.0.202006142357"
+         unpack="false"/>
+
+   <plugin
+         id="com.m4rc310.ml.registrations"
+         download-size="1726"
+         install-size="2003"
+         version="1.0.0.202006142357"
+         unpack="false"/>
+
+   <plugin
+         id="com.m4rc310.ml.reports"
+         download-size="18380"
+         install-size="20325"
+         version="1.0.0.202006142357"
+         unpack="false"/>
+
+   <plugin
+         id="com.m4rc310.ml.statusbar"
+         download-size="13"
+         install-size="24"
+         version="1.0.0.202006142357"
+         unpack="false"/>
+
+   <plugin
+         id="com.m4rc310.ml.ui"
+         download-size="4803"
+         install-size="5470"
+         version="1.0.0.202006142357"
+         unpack="false"/>
+
+</feature>

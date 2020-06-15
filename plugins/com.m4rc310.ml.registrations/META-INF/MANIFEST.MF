@@ -27,3 +27,14 @@ Import-Package: com.m4rc310.ml.statusbar.actions,
  org.eclipse.e4.core.contexts;version="1.7.0",
  org.eclipse.e4.core.services.nls
 Automatic-Module-Name: com.m4rc310.ml.registrations
+Export-Package: lombok,
+ lombok.delombok.ant,
+ lombok.experimental,
+ lombok.extern.apachecommons,
+ lombok.extern.flogger,
+ lombok.extern.java,
+ lombok.extern.jbosslog,
+ lombok.extern.log4j,
+ lombok.extern.slf4j,
+ lombok.javac.apt,
+ lombok.launch

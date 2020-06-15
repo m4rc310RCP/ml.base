@@ -3,6 +3,7 @@
 
 <product name="ML" uid="com.m4rc310.ml.base2.product" id="com.m4rc310.ml.base2.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.1" useFeatures="true" includeLaunchers="true">
 
+
    <configIni use="default">
    </configIni>
 
@@ -14,6 +15,17 @@
    </launcherArgs>
 
    <windowImages/>
+
+
+   <launcher name="MLS">
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
 
 
    <plugins>
@@ -99,6 +111,13 @@
       <feature id="com.m4rc310.ml.feature" installMode="root"/>
    </features>
 
+   <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+   </configurations>
 
    <preferencesInfo>
       <targetfile overwrite="false"/>

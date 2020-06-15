@@ -21,5 +21,6 @@
 		<module>com.m4rc310.ml.ui</module>
 		<module>com.m4rc310.rcp.graphql</module>
 		<module>com.m4rc310.rcp.popup</module>
+		
 	</modules>
 </project>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<site>
+   <feature id="com.m4rc310.ml.feature">
+      <category name="com.m4rc310.ml.update"/>
+   </feature>
+   <category-def name="com.m4rc310.ml.update" label="com.m4rc310.ml.update"/>
+</site>

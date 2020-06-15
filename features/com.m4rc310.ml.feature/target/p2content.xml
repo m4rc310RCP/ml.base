@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='com.m4rc310.ml.feature.feature.group' version='1.0.0' singleton='false'>
+    <update id='com.m4rc310.ml.feature.feature.group' range='[0.0.0,1.0.0)' severity='0'/>
+    <properties size='8'>
+      <property name='org.eclipse.equinox.p2.name' value='Feature'/>
+      <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='org.eclipse.equinox.p2.provider' value='M4RC310'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      <property name='maven-groupId' value='com.m4rc310.ml'/>
+      <property name='maven-artifactId' value='com.m4rc310.ml.feature'/>
+      <property name='maven-version' value='1.0.0'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.ml.feature.feature.group' version='1.0.0'/>
+    </provides>
+    <requires size='8'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.rcp.graphql' range='[1.0.49,1.0.49]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.rcp.popup' range='[1.0.49,1.0.49]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.ml.base2' range='[1.0.0.202006142357,1.0.0.202006142357]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.ml.registrations' range='[1.0.0.202006142357,1.0.0.202006142357]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.ml.reports' range='[1.0.0.202006142357,1.0.0.202006142357]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.ml.statusbar' range='[1.0.0.202006142357,1.0.0.202006142357]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.ml.ui' range='[1.0.0.202006142357,1.0.0.202006142357]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.ml.feature.feature.jar' range='[1.0.0,1.0.0]'>
+        <filter>
+          (org.eclipse.update.install.features=true)
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        [Enter License Description here.]
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      [Enter Copyright Description here.]
+    </copyright>
+  </unit>
+  <unit id='com.m4rc310.ml.feature.feature.jar' version='1.0.0'>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='Feature'/>
+      <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='org.eclipse.equinox.p2.provider' value='M4RC310'/>
+      <property name='maven-groupId' value='com.m4rc310.ml'/>
+      <property name='maven-artifactId' value='com.m4rc310.ml.feature'/>
+      <property name='maven-version' value='1.0.0'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.ml.feature.feature.jar' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+      <provided namespace='org.eclipse.update.feature' name='com.m4rc310.ml.feature' version='1.0.0'/>
+    </provides>
+    <filter>
+      (org.eclipse.update.install.features=true)
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='org.eclipse.update.feature' id='com.m4rc310.ml.feature' version='1.0.0'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='zipped'>
+          true
+        </instruction>
+      </instructions>
+    </touchpointData>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        [Enter License Description here.]
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      [Enter Copyright Description here.]
+    </copyright>
+  </unit>
+</units>

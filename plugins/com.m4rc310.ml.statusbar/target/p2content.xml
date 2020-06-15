@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.m4rc310.ml.statusbar' version='1.0.0.202006142357' generation='2'>
+    <update id='com.m4rc310.ml.statusbar' range='[0.0.0,1.0.0.202006142357)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Statusbar'/>
+      <property name='org.eclipse.equinox.p2.provider' value='M4RC310'/>
+      <property name='maven-groupId' value='com.m4rc310.ml'/>
+      <property name='maven-artifactId' value='com.m4rc310.ml.statusbar'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='6'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.ml.statusbar' version='1.0.0.202006142357'/>
+      <provided namespace='osgi.bundle' name='com.m4rc310.ml.statusbar' version='1.0.0.202006142357'/>
+      <provided namespace='java.package' name='com.m4rc310.ml.statusbar.actions' version='0.0.0'/>
+      <provided namespace='java.package' name='com.m4rc310.ml.statusbar.toolcontrols' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='com.m4rc310.ml.statusbar' version='1.0.0.202006142357'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='11'>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.ui.model.workbench' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.core.di' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.swt' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.osgi' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.ui.di' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.m4rc310.rcp.popup' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.m4rc310.ml.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jface' range='0.0.0'/>
+      <required namespace='java.package' name='javax.annotation' range='1.2.0'/>
+      <required namespace='java.package' name='javax.inject' range='1.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.m4rc310.ml.statusbar' version='1.0.0.202006142357'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.m4rc310.ml.statusbar;singleton:=true&#xA;Bundle-Version: 1.0.0.202006142357&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

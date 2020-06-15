@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.m4rc310.rcp.graphql' version='1.0.49' generation='2'>
+    <update id='com.m4rc310.rcp.graphql' range='[0.0.0,1.0.49)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Graphql'/>
+      <property name='org.eclipse.equinox.p2.provider' value='M4RC310'/>
+      <property name='maven-groupId' value='com.m4rc310.ml'/>
+      <property name='maven-artifactId' value='com.m4rc310.rcp.graphql'/>
+      <property name='maven-version' value='1.0.49'/>
+    </properties>
+    <provides size='248'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.m4rc310.rcp.graphql' version='1.0.49'/>
+      <provided namespace='osgi.bundle' name='com.m4rc310.rcp.graphql' version='1.0.49'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.async' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.base' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.filter' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.format' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.io' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.json' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.json.async' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.sym' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.type' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.core.util' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.cfg' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.deser.std' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.exc' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.ext' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.introspect' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsonFormatVisitors' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsonschema' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsontype' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.jsontype.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.module' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.node' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.ser.std' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.type' version='0.0.0'/>
+      <provided namespace='java.package' name='com.fasterxml.jackson.databind.util' version='0.0.0'/>
+      <provided namespace='java.package' name='com.m4rc310.rcp.graphql' version='0.0.0'/>
+      <provided namespace='java.package' name='com.m4rc310.rcp.graphql.websocket' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.analysis' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.cachecontrol' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.batched' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.defer' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.directives' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.instrumentation' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.instrumentation.dataloader' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.instrumentation.fieldvalidation' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.instrumentation.nextgen' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.instrumentation.parameters' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.instrumentation.tracing' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.nextgen' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.nextgen.result' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.preparsed' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.execution.reactive' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.introspection' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.language' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.nextgen' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.parser' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.parser.antlr' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.relay' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.schema' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.schema.diff' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.schema.diff.reporting' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.schema.idl' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.schema.idl.errors' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.schema.validation' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.schema.visibility' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.util' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.validation' version='0.0.0'/>
+      <provided namespace='java.package' name='graphql.validation.rules' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.v4.runtime' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.v4.runtime.atn' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.v4.runtime.dfa' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.v4.runtime.misc' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.v4.runtime.tree' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.v4.runtime.tree.pattern' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.v4.runtime.tree.xpath' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec.binary' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec.digest' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec.language' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec.language.bm' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.codec.net' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.logging' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.logging.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.auth' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.auth.params' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.client' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.client.config' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.client.entity' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.client.methods' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.client.params' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.client.protocol' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.client.utils' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.concurrent' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.config' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.conn' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.conn.params' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.conn.routing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.conn.scheme' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.conn.socket' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.conn.ssl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.conn.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.cookie' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.cookie.params' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.entity' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.impl.auth' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.impl.bootstrap' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.impl.client' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.impl.conn' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.impl.conn.tsccm' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.impl.cookie' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.impl.entity' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.impl.execchain' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.impl.io' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.impl.pool' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.io' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.message' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.params' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.pool' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.protocol' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.ssl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.http.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.awaitility' version='0.0.0'/>
+      <provided namespace='java.package' name='org.awaitility.classpath' version='0.0.0'/>
+      <provided namespace='java.package' name='org.awaitility.constraint' version='0.0.0'/>
+      <provided namespace='java.package' name='org.awaitility.core' version='0.0.0'/>
+      <provided namespace='java.package' name='org.awaitility.pollinterval' version='0.0.0'/>
+      <provided namespace='java.package' name='org.awaitility.reflect' version='0.0.0'/>
+      <provided namespace='java.package' name='org.awaitility.reflect.exception' version='0.0.0'/>
+      <provided namespace='java.package' name='org.awaitility.spi' version='0.0.0'/>
+      <provided namespace='java.package' name='org.dataloader' version='0.0.0'/>
+      <provided namespace='java.package' name='org.dataloader.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.dataloader.stats' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hamcrest' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hamcrest.beans' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hamcrest.collection' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hamcrest.comparator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hamcrest.core' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hamcrest.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hamcrest.io' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hamcrest.number' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hamcrest.object' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hamcrest.text' version='0.0.0'/>
+      <provided namespace='java.package' name='org.hamcrest.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='org.json' version='0.0.0'/>
+      <provided namespace='java.package' name='org.json.simple' version='0.0.0'/>
+      <provided namespace='java.package' name='org.json.simple.parser' version='0.0.0'/>
+      <provided namespace='java.package' name='org.reactivestreams' version='0.0.0'/>
+      <provided namespace='java.package' name='org.slf4j' version='0.0.0'/>
+      <provided namespace='java.package' name='org.slf4j.event' version='0.0.0'/>
+      <provided namespace='java.package' name='org.slf4j.helpers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.slf4j.spi' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.asm' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.access' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.access.el' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.config' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.groovy' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.parsing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.serviceloader' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.wiring' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.factory.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.propertyeditors' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.beans.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.cglib' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.cglib.beans' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.cglib.core' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.cglib.proxy' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.cglib.reflect' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.cglib.transform' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.cglib.transform.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.cglib.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.convert' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.convert.converter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.convert.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.env' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.io' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.io.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.serializer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.serializer.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.style' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.task' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.task.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.type' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.type.classreading' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.core.type.filter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.http' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.http.client' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.http.client.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.http.converter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.http.converter.feed' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.http.converter.json' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.http.converter.protobuf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.http.converter.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.http.converter.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.http.server' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.lang' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.objenesis' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.android' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.basic' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.gcj' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.jrockit' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.perc' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.instantiator.sun' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.objenesis.strategy' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.remoting.caucho' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.remoting.httpinvoker' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.remoting.jaxws' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.util.backoff' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.util.comparator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.util.concurrent' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.util.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.accept' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.bind' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.bind.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.bind.annotation.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.bind.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.client' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.client.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.context' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.context.request' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.context.request.async' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.context.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.cors' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.filter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.jsf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.jsf.el' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.method' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.method.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.method.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.multipart' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.multipart.commons' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.multipart.support' version='0.0.0'/>
+      <provided namespace='java.package' name='org.springframework.web.util' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='com.m4rc310.rcp.graphql' version='1.0.49'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='6'>
+      <required namespace='osgi.bundle' name='org.eclipse.e4.core.di.annotations' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='java.package' name='com.fasterxml.jackson.annotation' range='0.0.0'/>
+      <required namespace='java.package' name='javax.annotation' range='1.2.0'/>
+      <required namespace='java.package' name='javax.inject' range='1.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.m4rc310.rcp.graphql' version='1.0.49'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.m4rc310.rcp.graphql;singleton:=true&#xA;Bundle-Version: 1.0.49&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

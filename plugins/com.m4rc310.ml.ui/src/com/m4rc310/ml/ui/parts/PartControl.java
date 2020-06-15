@@ -26,7 +26,6 @@ import org.eclipse.core.databinding.observable.IChangeListener;
 import org.eclipse.core.databinding.observable.list.IObservableList;
 import org.eclipse.core.databinding.observable.list.WritableList;
 import org.eclipse.core.databinding.observable.value.IObservableValue;
-import org.eclipse.core.internal.preferences.TestHelper;
 import org.eclipse.core.runtime.FileLocator;
 import org.eclipse.core.runtime.Platform;
 import org.eclipse.draw2d.geometry.Dimension;
@@ -364,9 +363,9 @@ public class PartControl {
 
 				if (c instanceof Label) {
 					Label label = (Label) c;
-					Color color = getColor(
-							enabled ? SWT.COLOR_WIDGET_FOREGROUND : SWT.COLOR_WIDGET_DISABLED_FOREGROUND);
-					label.setForeground(color);
+//					Color color = getColor(
+//							enabled ? SWT.COLOR_WIDGET_FOREGROUND : SWT.COLOR_WIDGET_DISABLED_FOREGROUND);
+//					label.setForeground(color);
 				}
 
 				if (c instanceof Viewer) {

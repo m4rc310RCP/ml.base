@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='com.m4rc310.rcp.graphql' version='1.0.49'>
+    <properties size='5'>
+      <property name='artifact.size' value='7952358'/>
+      <property name='download.size' value='7952358'/>
+      <property name='maven-groupId' value='com.m4rc310.ml'/>
+      <property name='maven-artifactId' value='com.m4rc310.rcp.graphql'/>
+      <property name='maven-version' value='1.0.49'/>
+    </properties>
+  </artifact>
+</artifacts>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1592179146584" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.e4.rcp" version="1.6.200.v20180906-1121" url="features/org.eclipse.e4.rcp_1.6.200.v20180906-1121/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.15.0.v20180722-1159" url="features/org.eclipse.emf.ecore_2.15.0.v20180722-1159/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.9.0.v20180906-1121" url="features/org.eclipse.rcp_4.9.0.v20180906-1121/">
+		</feature>
+		<feature id="com.m4rc310.ml.feature" version="1.0.0" url="features/com.m4rc310.ml.feature_1.0.0/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.15.0.v20180723-1316" url="features/org.eclipse.emf.common_2.15.0.v20180723-1316/">
+		</feature>
+	</site>
+</config>

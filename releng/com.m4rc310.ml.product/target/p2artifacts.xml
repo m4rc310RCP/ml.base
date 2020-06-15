@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='binary' id='com.m4rc310.ml.base2.product.executable.win32.win32.x86_64' version='1.0.1'>
+    <properties size='5'>
+      <property name='maven-groupId' value='com.m4rc310.ml'/>
+      <property name='maven-artifactId' value='com.m4rc310.ml.product'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='com.m4rc310.ml.base2.product.executable.win32.win32.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='com.m4rc310.ml.base2.product.executable.cocoa.macosx.x86_64' version='1.0.1'>
+    <properties size='5'>
+      <property name='maven-groupId' value='com.m4rc310.ml'/>
+      <property name='maven-artifactId' value='com.m4rc310.ml.product'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='com.m4rc310.ml.base2.product.executable.cocoa.macosx.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+</artifacts>
